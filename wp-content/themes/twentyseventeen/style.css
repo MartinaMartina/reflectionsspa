@@ -1888,8 +1888,8 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 .page .panel-content .entry-title,
 .page-title,
 body.page:not(.twentyseventeen-front-page) .entry-title {
-	color: #ff0099;
-	font-size: 34px;
+	color: #222;
+	font-size: 14px;
 	font-size: 0.875rem;
 	font-weight: 800;
 	letter-spacing: 0.14em;
@@ -2680,7 +2680,7 @@ h2.widget-title {
 }
 
 .search-form .search-submit .icon {
-	height: 84px;
+	height: 24px;
 	top: -2px;
 	width: 24px;
 }
