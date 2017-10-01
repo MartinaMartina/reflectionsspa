@@ -18,11 +18,6 @@ get_header(); ?>
 
     <div class="container">
         <div id="primary">
-			<h2 class="sidetitle">All Treatments</h2>
-<?php dynamic_sidebar( 'treatments-sidebar' ); ?>
-        </div><!-- #primary -->
-
-		<div id="secondary">
             <?php
             // Start the loop.
             while ( have_posts() ) : the_post();
@@ -49,6 +44,12 @@ get_header(); ?>
 			<?php endwhile; ?>
 			
 			<p><br /><br /><a href="https://clients.mindbodyonline.com/classic/home?studioid=191303" class="apptbutton">Make an Appointment</a><br /><i>Book on MindBody Online</i></p>
+        </div><!-- #primary -->
+
+		<div id="secondary">
+						<h2 class="sidetitle">All Treatments</h2>
+			<?php dynamic_sidebar( 'treatments-sidebar' ); ?>
+            
 		</div>
         
     </div><!-- .container -->
